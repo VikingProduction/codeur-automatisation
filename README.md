@@ -62,7 +62,8 @@ Utilisation
       Suivi des offres soumises :
           Le script enregistre automatiquement le GUID de chaque offre soumise dans le fichier posted_offers.txt afin d'éviter de republier sur un même projet lors d'exécutions ultérieures.
 
-Configuration
+## Configuration
+
     Mots-clés d'exclusion :
       Vous pouvez personnaliser la liste des mots-clés dans le fichier main.py (variable mots_exclusion) pour ignorer certains projets.
     Paramètres de l'offre :
@@ -70,14 +71,16 @@ Configuration
     Vérification de la date :
       La fonction is_recent vérifie que le projet a été publié aujourd'hui et dans les 30 minutes précédentes. Vous pouvez modifier ce paramètre en ajustant le paramètre max_minutes.
 
-Dépendances
+## Dépendances
 
 Les dépendances principales du projet sont :
     feedparser : Pour parser le flux RSS.
     selenium : Pour automatiser la navigation et la soumission d'offres via un navigateur.
 
 Consultez le fichier requirements.txt pour plus de détails.
-Avertissements et Remarques
+
+## Avertissements et Remarques
+
     Driver Selenium :
       Assurez-vous d'utiliser la version du driver correspondant à votre version du navigateur (par exemple, Chromedriver pour Google Chrome).
     Sécurité des identifiants :
@@ -87,7 +90,7 @@ Avertissements et Remarques
     Évolution de l'interface :
       En cas de modification de l'interface ou de l'API de Codeur, certaines parties du script (notamment l'identification des éléments via Selenium) devront être mises à jour.
 
-Licence
+##  Licence
 
 Ce projet est distribué sous Licence MIT avec interdiction formelle de vente.
 Ce projet a été développé par https://viking-production.fr
