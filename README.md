@@ -34,14 +34,22 @@ Ce projet a pour but d'automatiser la soumission d'offres sur la plateforme [Cod
 
 ## Structure du Projet
 project/
+
 ├── main.py                  # Script principal
+
 ├── exceptions.py            # Définitions des exceptions personnalisées
+
 ├── messages.py              # Gestion des messages tournants
+
 ├── posted_offers.txt        # Log des GUID des offres déjà soumises (créé automatiquement)
+
 ├── requirements.txt         # Liste des dépendances du projet
+
 └── messages/                # Dossier contenant les fichiers de messages tournants
-    ├── message1.txt
-    └── message2.txt         # (optionnel)
+
+  ├── message1.txt
+  
+  └── message2.txt         # (optionnel)
 
 
 
