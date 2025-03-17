@@ -33,7 +33,16 @@ Ce projet a pour but d'automatiser la soumission d'offres sur la plateforme [Cod
   Le script se connecte à Codeur via la page de connexion (https://www.codeur.com/users/sign_in) en remplissant automatiquement les champs `user_email` et `user_password`, puis soumet l'offre sur le projet concerné.
 
 ## Structure du Projet
-project/ ├── main.py # Script principal ├── exceptions.py # Définitions des exceptions personnalisées ├── messages.py # Gestion des messages tournants ├── posted_offers.txt # Log des GUID des offres déjà soumises (créé automatiquement) ├── requirements.txt # Liste des dépendances du projet └── messages/ # Dossier contenant les fichiers de messages tournants ├── message1.txt └── message2.txt # (optionnel)
+project/
+├── main.py                  # Script principal
+├── exceptions.py            # Définitions des exceptions personnalisées
+├── messages.py              # Gestion des messages tournants
+├── posted_offers.txt        # Log des GUID des offres déjà soumises (créé automatiquement)
+├── requirements.txt         # Liste des dépendances du projet
+└── messages/                # Dossier contenant les fichiers de messages tournants
+    ├── message1.txt
+    └── message2.txt         # (optionnel)
+
 
 
 ## Installation
@@ -42,14 +51,12 @@ project/ ├── main.py # Script principal ├── exceptions.py # Définit
    git clone https://votre-repo-url.git
    cd project
 
-    Installer les dépendances :
-
+2.Installer les dépendances :
     Assurez-vous d'avoir Python 3.x installé, puis exécutez :
-
     pip install -r requirements.txt
 
-    Installer le driver Selenium :
-        Pour Google Chrome, téléchargez Chromedriver et placez-le dans votre PATH ou dans le répertoire du projet.
+  3. Installer le driver Selenium :
+     Pour Google Chrome, téléchargez Chromedriver et placez-le dans votre PATH ou dans le répertoire du projet.
 
 Utilisation
     Préparation des messages tournants :
